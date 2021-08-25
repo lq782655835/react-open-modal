@@ -1,0 +1,24 @@
+{
+	"name": "react-open-modal",
+	"version": "0.0.1",
+	"description": "react通用弹窗辅助方法",
+	"module": "src/index.jsx",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "babel src -d dist --copy-files"
+	},
+	"dependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0"
+	},
+	"keywords": [
+		"react",
+		"modal",
+		"dialog"
+	],
+	"author": "springleo",
+	"license": "MIT"
+}
